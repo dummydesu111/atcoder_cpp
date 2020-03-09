@@ -1,0 +1,36 @@
+{
+	"include bits/stdc++.h": {
+		"prefix": "bits/stdc++",
+		"scope": "cpp",
+		"body": [
+			"#include <bits/stdc++.h>",
+			"$0"
+		],
+		"description": "Add standard libraries "
+	},
+	"namespace std": {
+		"prefix": "namespace_std",
+		"scope": "cpp",
+		"body": [
+			"using namespace std;",
+			"$0"
+		],
+		"description": "Add using  namespace std"
+	},
+	"standard input": {
+		"prefix": "cin_snnipet",
+		"scope": "cpp",
+		"body": [
+			"cin >> $1;"
+		],
+		"description": "cin snnipet"
+	},
+	"standard output": {
+		"prefix": "cout_snnipet",
+		"scope": "cpp",
+		"body": [
+			"cout << $1 << endl;"
+		],
+		"description": "cout snnipet"
+	}
+}
